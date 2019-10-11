@@ -14,8 +14,6 @@ const metascraper = require('metascraper')([
     require('metascraper-author')()
 ])
 const got = require('got')
-const  send  = require('micro')
-
 const app = express()
 
 app.get('/', async function(req, res) {
